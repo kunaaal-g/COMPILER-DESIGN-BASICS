@@ -43,7 +43,7 @@ lexical-analyzer/ │ ├── input.txt
 # Sample input file with code ├── lexical_analyzer.c  
 # Lexical analyzer implementation ├
 
-👨‍💻 Author
+## 👨‍💻 Author
 Submitted for CODTECH Internship 2025
 
 ## 💡 Output
