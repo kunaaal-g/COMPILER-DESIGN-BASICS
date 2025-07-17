@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
-int isKeyword(char *word) {
+int isKeyword(char *word) 
+{
     char *keywords[] = {"int", "float", "if", "else", "while", "return", "for", "char", "double"};
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < 9; i++) 
+    {
         if (strcmp(word, keywords[i]) == 0)
             return 1;
     }
@@ -25,7 +26,8 @@ int main()
         {
             token[j] = '\0';
             j = 0;
-            if (strlen(token) > 0) {
+            if (strlen(token) > 0) 
+            {
                 if (isKeyword(token))
                     printf("Keyword: %s\n", token);
                 else
