@@ -43,5 +43,8 @@ lexical-analyzer/ │ ├── input.txt
 # Sample input file with code ├── lexical_analyzer.c  
 # Lexical analyzer implementation ├
 
+👨‍💻 Author
+Submitted for CODTECH Internship 2025
+
 ## 💡 Output
 ![Image](https://github.com/user-attachments/assets/5a1dc9c8-e439-427c-801a-a2fa9ca0510d)
